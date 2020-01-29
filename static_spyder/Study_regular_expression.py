@@ -11,7 +11,7 @@ Basic symbol
 """
 """
 .号
-点号可以代表除了\n以外的字符
+点号可以代表除了\n(换行符)以外的字符
 一个点号代表一个字符
 jikexueyuan==ji.......an，有多少个字母就代表着需要打多少个点号
 点号就是一个占位符
@@ -41,24 +41,47 @@ jikexueyuan==jikew?xueyuan
 """
 实际应用
 括号()的使用
-提取文本、多行文本
 """
 sentence_1 = 'jikexueyuan'
-sentence_2 = '我的密码是123456678，你的密码是112312312，他的密码是sadfwerasdf，'
-sentence_3 = '我是kingname，我的微博密码是1223131'
+sentence_2 = '我的密码是123456678，你的密码是112312312，他的密码是sadfwerasdf，请牢记'
+sentence_3 = '我是kingname, 我的微博账号是:kingname, 密码是:12345678, QQ账号是:99999, 密码是:890abcd, 银行卡账号是:000001, 密码是:654321, Github账号是:99999@qq.com, 密码是:7777love8888, 请记住他们。'
+
 result_1 = re.findall('jike...yuan', sentence_1)
 # 这样提取了全部的内容即['jikexueyuan']
 result_11 = re.findall('jike(...)yuan', sentence_1)
 # 加了括号仅提取了括号中的内容['xue']
 """
-提取数字的三种情况
-.*?用来匹配一个满足要求的最短字符串
+提取数字
 \d用来表示一位数字，\d+代表一个或多个数字
+"""
+result_2 = re.findall('(\d+)', sentence_2)
+
+"""
+提取文本、多行文本
+.*外号贪心算法，获取最长的满足条件的字符串
+.*?外号非贪心算法，获取最短的能满足条件的字符串
 """
 result_111 = re.findall('密码是(.*)，', sentence_2)
 # .* 代表多个点号，同来匹配一串任意长度的字符串，前后需要其他符号来限定长度
 result_1111 = re.findall('密码是(.*?)，', sentence_2)
 # .*? 匹配一个能满足要求的最短字符串，前后需要其他符号来限定长度，比如这个里面的，
-print(result_111, result_1111)
-result_2 = re.findall('(\d+)', sentence_2)
-print(result_2)
+user_password = re.findall('账号是:.*?, 密码是:.*?,', sentence_3)
+# ['账号是:kingname, 密码是:12345678,', '账号是:99999, 密码是:890abcd,', '账号是:000001, 密码是:654321,', '账号是:99999@qq.com, 密码是:7777love8888,']
+result_3 = re.findall('账号是:(.*?), 密码是:(.*?),', sentence_3)
+# [('kingname', '12345678'), ('99999', '890abcd'), ('000001', '654321'), ('99999@qq.com', '7777love8888')]
+# 上方的账号和密码之间需要空格
+"""
+re.findall(pattern,string,flags=0)
+"""
+
+"""
+re.search(pattern,string,flags=0)
+search方法可以返回第一个满足要求的字符串，一旦找到要求的内容就会停止查找
+"""
+result_4=re.search('账号是:(.*?), 密码是:(.*?),', sentence_3)
+print(result_4)
+print(result_4.group())
+print(result_4.group(1))
+print(result_4.group(2))
+
+
