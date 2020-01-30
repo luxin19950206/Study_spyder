@@ -72,16 +72,37 @@ result_3 = re.findall('账号是:(.*?), 密码是:(.*?),', sentence_3)
 # 上方的账号和密码之间需要空格
 """
 re.findall(pattern,string,flags=0)
+Python的正则表达式以列表的形式返回所有满足要求的字符串
 """
 
 """
 re.search(pattern,string,flags=0)
 search方法可以返回第一个满足要求的字符串，一旦找到要求的内容就会停止查找
 """
-result_4=re.search('账号是:(.*?), 密码是:(.*?),', sentence_3)
-print(result_4)
-print(result_4.group())
-print(result_4.group(1))
-print(result_4.group(2))
+result_4 = re.search('账号是:(.*?), 密码是:(.*?),', sentence_3)
+# print(result_4)
+# <re.Match object; span=(16, 43), match='账号是:kingname, 密码是:12345678,'>
+# print(result_4.group())
+# 账号是:kingname, 密码是:12345678,
+# print(result_4.group(1))
+# kingname
+# print(result_4.group(2))
+# 12345678
 
-
+"""
+正则表达式提取技巧：
+1先处理大后处理小
+"""
+example_text = """
+有效用户：
+姓名：张三
+姓名：里斯
+姓名：里斯
+无效用户：
+姓名：某某
+姓名：某人
+"""
+user = re.findall('有效用户：(.*?)无效用户', example_text, re.S)
+# ['\n姓名：张三\n姓名：里斯\n姓名：里斯\n']
+user_useful = re.findall('姓名：(.*?)\n', user[0])
+# ['张三', '里斯', '里斯']

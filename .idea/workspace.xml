@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba382a8-c4dc-4068-9559-a55a927225cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static_spyder/MDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_spyder/homework_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_spyder/source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_regular_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_spyder/Study_regular_expression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_spyder_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_spyder/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_spyder/Study_regular_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_spyder/Study_regular_expression.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static_spyder/Study_regular_expression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1722">
-              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-              <folding>
-                <element signature="e#1491#1597#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,72 +23,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/static_spyder_learn.py" />
-        <option value="$PROJECT_DIR$/Study_regular_expression.py" />
-        <option value="$PROJECT_DIR$/static_spyder/Study_regular_expression.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="905" />
-    <option name="y" value="23" />
-    <option name="width" value="535" />
-    <option name="height" value="811" />
-  </component>
+  <component name="ProjectId" id="1X3X8pPiV41KV9OeQAy0VHDxCnM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Study_spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study_spyder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study_spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study_spyder" type="462c0819:PsiDirectoryNode" />
-              <item name="static_spyder" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static_spyder" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.homework_1">
+    <configuration name="MDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study_spyder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_spyder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_spyder/MDB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Study_regular_expression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study_spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +86,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="homework_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study_spyder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_spyder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_spyder/homework_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework_1" />
         <item itemvalue="Python.Study_regular_expression" />
+        <item itemvalue="Python.MDB" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -144,50 +140,54 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18811882" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26142856" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_spyder_learn.py" />
-    <entry file="file://$PROJECT_DIR$/static_spyder/Study_regular_expression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <element signature="e#1491#1597#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1416" height="307" key="GridCell.Tab.0.bottom" timestamp="1580396300428">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1416" height="155" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580389551423" />
+    <state width="549" height="155" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1580277252910" />
+    <state width="1416" height="307" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1580396300428" />
+    <state width="1416" height="307" key="GridCell.Tab.0.center" timestamp="1580396300426">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1416" height="155" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580389551421" />
+    <state width="549" height="155" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1580277252909" />
+    <state width="1416" height="307" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1580396300426" />
+    <state width="1416" height="307" key="GridCell.Tab.0.left" timestamp="1580396300425">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1416" height="155" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580389551421" />
+    <state width="549" height="155" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1580277252908" />
+    <state width="1416" height="307" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1580396300425" />
+    <state width="1416" height="307" key="GridCell.Tab.0.right" timestamp="1580396300427">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1416" height="155" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580389551422" />
+    <state width="549" height="155" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1580277252910" />
+    <state width="1416" height="307" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1580396300427" />
+    <state width="549" height="252" key="GridCell.Tab.1.bottom" timestamp="1580286095345">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="549" height="252" key="GridCell.Tab.1.bottom/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
+    <state width="549" height="252" key="GridCell.Tab.1.center" timestamp="1580286095345">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="549" height="252" key="GridCell.Tab.1.center/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
+    <state width="549" height="252" key="GridCell.Tab.1.left" timestamp="1580286095345">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="549" height="252" key="GridCell.Tab.1.left/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
+    <state width="549" height="252" key="GridCell.Tab.1.right" timestamp="1580286095345">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="549" height="252" key="GridCell.Tab.1.right/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
+    <state x="458" y="72" key="SettingsEditor" timestamp="1580285714406">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="229" y="60" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1580277204164" />
+    <state x="458" y="72" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1580285714406" />
   </component>
 </project>
