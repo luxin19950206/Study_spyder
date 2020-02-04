@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba382a8-c4dc-4068-9559-a55a927225cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static_spyder/MDB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_spyder/homework_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_spyder/source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_spyder/Study_regular_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_spyder/Study_regular_expression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_spyder/homework_1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +33,14 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static_spyder" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.homework_1">
+  <component name="RunManager" selected="Python.website_python">
     <configuration name="MDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study_spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,8 +104,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="website_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study_spyder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_spyder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_spyder/website_python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.website_python" />
         <item itemvalue="Python.homework_1" />
         <item itemvalue="Python.Study_regular_expression" />
         <item itemvalue="Python.MDB" />
@@ -138,56 +157,78 @@
       <option name="presentableId" value="Default" />
       <updated>1573143023188</updated>
     </task>
+    <task id="LOCAL-00001" summary="12">
+      <created>1580813273398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580813273398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1416" height="307" key="GridCell.Tab.0.bottom" timestamp="1580396300428">
+    <state x="365" y="26" key="CommitChangelistDialog2" timestamp="1580813273150">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1416" height="155" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580389551423" />
+    <state x="365" y="26" key="CommitChangelistDialog2/0.23.1440.809@0.23.1440.809" timestamp="1580813273150" />
+    <state width="1416" height="247" key="GridCell.Tab.0.bottom" timestamp="1580814906880">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1416" height="247" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580814906880" />
     <state width="549" height="155" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1580277252910" />
-    <state width="1416" height="307" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1580396300428" />
-    <state width="1416" height="307" key="GridCell.Tab.0.center" timestamp="1580396300426">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="638" height="308" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1580610009421" />
+    <state width="1416" height="247" key="GridCell.Tab.0.center" timestamp="1580814906879">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1416" height="155" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580389551421" />
+    <state width="1416" height="247" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580814906879" />
     <state width="549" height="155" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1580277252909" />
-    <state width="1416" height="307" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1580396300426" />
-    <state width="1416" height="307" key="GridCell.Tab.0.left" timestamp="1580396300425">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="638" height="308" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1580610009419" />
+    <state width="1416" height="247" key="GridCell.Tab.0.left" timestamp="1580814906877">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1416" height="155" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580389551421" />
+    <state width="1416" height="247" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580814906877" />
     <state width="549" height="155" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1580277252908" />
-    <state width="1416" height="307" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1580396300425" />
-    <state width="1416" height="307" key="GridCell.Tab.0.right" timestamp="1580396300427">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="638" height="308" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1580610009414" />
+    <state width="1416" height="247" key="GridCell.Tab.0.right" timestamp="1580814906880">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1416" height="155" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580389551422" />
+    <state width="1416" height="247" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580814906880" />
     <state width="549" height="155" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1580277252910" />
-    <state width="1416" height="307" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1580396300427" />
-    <state width="549" height="252" key="GridCell.Tab.1.bottom" timestamp="1580286095345">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="638" height="308" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1580610009421" />
+    <state width="549" height="252" key="GridCell.Tab.1.bottom" timestamp="1580452559319">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="549" height="252" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580452559319" />
     <state width="549" height="252" key="GridCell.Tab.1.bottom/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
-    <state width="549" height="252" key="GridCell.Tab.1.center" timestamp="1580286095345">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="549" height="252" key="GridCell.Tab.1.center" timestamp="1580452559318">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="549" height="252" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580452559318" />
     <state width="549" height="252" key="GridCell.Tab.1.center/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
-    <state width="549" height="252" key="GridCell.Tab.1.left" timestamp="1580286095345">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="549" height="252" key="GridCell.Tab.1.left" timestamp="1580452559317">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="549" height="252" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580452559317" />
     <state width="549" height="252" key="GridCell.Tab.1.left/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
-    <state width="549" height="252" key="GridCell.Tab.1.right" timestamp="1580286095345">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="549" height="252" key="GridCell.Tab.1.right" timestamp="1580452559318">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="549" height="252" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580452559318" />
     <state width="549" height="252" key="GridCell.Tab.1.right/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
-    <state x="458" y="72" key="SettingsEditor" timestamp="1580285714406">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state x="458" y="55" key="SettingsEditor" timestamp="1580814683965">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="458" y="55" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580814683965" />
     <state x="229" y="60" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1580277204164" />
     <state x="458" y="72" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1580285714406" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580452544536">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580452544536" />
   </component>
 </project>
