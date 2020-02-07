@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba382a8-c4dc-4068-9559-a55a927225cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static_spyder/BS4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Study_spyder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Study_spyder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_spyder/homework_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_spyder/example_xpath_special.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_spyder/example_xpath_special.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +40,32 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static_spyder/Exercise" />
       <recent name="$PROJECT_DIR$/static_spyder" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.website_python">
+  <component name="RunManager" selected="Python.BS4">
+    <configuration name="BS4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study_spyder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_spyder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_spyder/BS4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study_spyder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BS4" />
         <item itemvalue="Python.website_python" />
         <item itemvalue="Python.homework_1" />
         <item itemvalue="Python.Study_regular_expression" />
@@ -176,28 +202,32 @@
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="365" y="26" key="CommitChangelistDialog2/0.23.1440.809@0.23.1440.809" timestamp="1580813273150" />
-    <state width="1416" height="247" key="GridCell.Tab.0.bottom" timestamp="1580814906880">
+    <state x="457" y="332" key="FileChooserDialogImpl" timestamp="1581055855209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1416" height="247" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580814906880" />
+    <state x="457" y="332" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1581055855209" />
+    <state width="1416" height="247" key="GridCell.Tab.0.bottom" timestamp="1580916287199">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1416" height="247" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580916287199" />
     <state width="549" height="155" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1580277252910" />
     <state width="638" height="308" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1580610009421" />
-    <state width="1416" height="247" key="GridCell.Tab.0.center" timestamp="1580814906879">
+    <state width="1416" height="247" key="GridCell.Tab.0.center" timestamp="1580916287197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1416" height="247" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580814906879" />
+    <state width="1416" height="247" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580916287197" />
     <state width="549" height="155" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1580277252909" />
     <state width="638" height="308" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1580610009419" />
-    <state width="1416" height="247" key="GridCell.Tab.0.left" timestamp="1580814906877">
+    <state width="1416" height="247" key="GridCell.Tab.0.left" timestamp="1580916287196">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1416" height="247" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580814906877" />
+    <state width="1416" height="247" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580916287196" />
     <state width="549" height="155" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1580277252908" />
     <state width="638" height="308" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1580610009414" />
-    <state width="1416" height="247" key="GridCell.Tab.0.right" timestamp="1580814906880">
+    <state width="1416" height="247" key="GridCell.Tab.0.right" timestamp="1580916287198">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1416" height="247" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580814906880" />
+    <state width="1416" height="247" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580916287198" />
     <state width="549" height="155" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1580277252910" />
     <state width="638" height="308" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1580610009421" />
     <state width="549" height="252" key="GridCell.Tab.1.bottom" timestamp="1580452559319">
@@ -220,12 +250,12 @@
     </state>
     <state width="549" height="252" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580452559318" />
     <state width="549" height="252" key="GridCell.Tab.1.right/0.23.1440.809@0.23.1440.809" timestamp="1580286095345" />
-    <state x="458" y="55" key="SettingsEditor" timestamp="1580814683965">
+    <state x="458" y="55" key="SettingsEditor" timestamp="1581058475702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="55" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580814683965" />
+    <state x="458" y="55" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581058475702" />
     <state x="229" y="60" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1580277204164" />
-    <state x="458" y="72" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1580285714406" />
+    <state x="458" y="72" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1581054709522" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580452544536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

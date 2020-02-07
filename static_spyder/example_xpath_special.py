@@ -1,6 +1,5 @@
 import lxml.html
 
-
 html1 = '''
 <!DOCTYPE html>
 <html>
@@ -16,6 +15,11 @@ html1 = '''
 </body>
 </html>
 '''
+# 面对相同字符串，但是内容不一样的情况需要用start-with(属性名，属性名开头名字)
+selector = lxml.html.fromstring(html1)
+content = selector.xpath('//div[starts-with(@id, "test")]/text()')
+for each in content:
+    print(each)
 
 html2 = '''
 <!DOCTYPE html>
@@ -40,20 +44,15 @@ html2 = '''
 </html>
 '''
 
-# selector = lxml.html.fromstring(html1)
-# content = selector.xpath('//div[starts-with(@id, "test")]/text()')
-# for each in content:
-#     print(each)
-
-#如果使用一般的办法，就会出现获取到的数据不完整的情况
+# 如果使用一般的办法，就会出现获取到的数据不完整的情况
 selector = lxml.html.fromstring(html2)
-# content_1 = selector.xpath('//div[@id="test3"]/text()')
-# for each in content_1:
-#     print(each)
+content_1 = selector.xpath('//div[@id="test3"]/text()')
+for each in content_1:
+    print(each)
 
 # #使用string(.)就可以把数据获取完整
 data = selector.xpath('//div[@id="test3"]')[0]
 print(data)
 info = data.xpath('string(.)')
-content_2 = info.replace('\n', '').replace(' ', '')
+content_2 = info.replace('\n', '').replace(' ', '')  # 将换行符、空格替代
 print(content_2)
